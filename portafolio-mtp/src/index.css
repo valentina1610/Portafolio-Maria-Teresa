@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Lato:wght@300;400;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: #fdf6f9;
+  font-family: 'Lato', sans-serif;
+  color: #2d1a3a;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+body,
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+}
