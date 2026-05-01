@@ -1,33 +1,36 @@
 import React from "react";
+import { useInView } from "../hooks/useInView";
 
 const links = [
   {
-    icon: "📱",
     label: "WhatsApp",
     value: "+54 223 680-1648",
     href: "https://wa.me/542236801648?text=Hola%20Maria%20Teresa!",
-    color: "#25D366",
+    modifier: "whatsapp",
   },
   {
-    icon: "✉️",
     label: "Email",
     value: "mtpincheira@hotmail.com",
     href: "mailto:mtpincheira@hotmail.com",
-    color: "#0288d1",
+    modifier: "email",
   },
   {
-    icon: "📸",
     label: "Instagram",
     value: "@Mariateresa_pinta",
     href: "https://instagram.com/Mariateresa_pinta",
-    color: "#c2185b",
+    modifier: "instagram",
   },
 ];
 
 export default function Contacto() {
+  const [ref, visible] = useInView();
+
   return (
     <section id="contacto" className="contacto">
-      <div className="contacto__inner">
+      <div
+        ref={ref}
+        className={`contacto__inner ${visible ? "is-visible" : ""}`}
+      >
         <div className="contacto__eyebrow">Hablemos</div>
         <h2 className="contacto__title">
           <em>Contacto</em>
@@ -44,9 +47,8 @@ export default function Contacto() {
               href={item.href}
               target="_blank"
               rel="noopener noreferrer"
-              className={`contact-card contact-card--${item.label.toLowerCase().replace(/\s+/g, "-")}`}
+              className={`contact-card contact-card--${item.modifier}`}
             >
-              <span className="contact-card__icon">{item.icon}</span>
               <div className="contact-card__content">
                 <span className="contact-card__label">{item.label}</span>
                 <span className="contact-card__value">{item.value}</span>

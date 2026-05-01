@@ -46,14 +46,14 @@ export const PALETTE = {
 export const OBRAS = [
   {
     id: 1,
-    nombre: "Vals de las Flores",
-    tecnica: "Óleo",
-    tamaño: "1.00 x 70 cm",
-    precio: 500000,
-    color: "rose",
-    emoji: "🌸",
+    nombre: "Dasha",
+    tecnica: "Mixta",
+    tamaño: "60 cm de diámetro",
+    precio: 600000,
+    color: "amber",
+    imagen: "dasha.png",
     descripcion:
-      "Una danza silenciosa entre pétalos y luz. La obra evoca el movimiento de flores al viento, con capas de óleo que crean profundidad y textura.",
+      "",
   },
   {
     id: 2,

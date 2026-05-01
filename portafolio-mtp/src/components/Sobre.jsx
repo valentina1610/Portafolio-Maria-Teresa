@@ -1,6 +1,8 @@
 import React from "react";
 import { useInView } from "../hooks/useInView";
 
+const teresaFoto = "/teresafoto.jpg";
+
 const tecnicas = ["Acrílico", "Óleo", "Acuarela", "Técnica Mixta"];
 
 export default function Sobre() {
@@ -10,15 +12,24 @@ export default function Sobre() {
     <section id="sobre" className="sobre">
       <div className="sobre__glow" />
       <div className={`sobre__inner ${visible ? "is-visible" : ""}`} ref={ref}>
+
+        {/* Columna izquierda: foto */}
         <div className="sobre__card">
-          <div className="sobre__emoji">🎨</div>
-          <p className="sobre__tag">Pintando desde 2013</p>
+          <div className="sobre__photo-wrap">
+            <img
+              src={teresaFoto}
+              alt="Maria Teresa Pincheira — Artista Visual"
+              className="sobre__photo"
+            />
+          </div>
+          {/* Badge flotante con años */}
           <div className="sobre__years">
             <span className="sobre__years-number">+12</span>
             <span className="sobre__years-label">años creando</span>
           </div>
         </div>
 
+        {/* Columna derecha: texto */}
         <div className="sobre__text-block">
           <div className="sobre__eyebrow">Sobre la artista</div>
           <h2 className="sobre__title">
@@ -46,6 +57,7 @@ export default function Sobre() {
             </div>
           </div>
         </div>
+
       </div>
     </section>
   );
