@@ -2,7 +2,7 @@ import React from "react";
 import { useInView } from "../hooks/useInView";
 
 const beneficios = [
-  { icon: "🕐", label: "3 horas de clase" },
+  { icon: "🕐", label: "2 horas y media de clase" },
   { icon: "🎨", label: "Todas las técnicas" },
   { icon: "📍", label: "Clases presenciales" },
   { icon: "✨", label: "Grupos pequeños" },

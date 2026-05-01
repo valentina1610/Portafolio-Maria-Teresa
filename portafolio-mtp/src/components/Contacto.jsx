@@ -9,9 +9,9 @@ const links = [
     modifier: "whatsapp",
   },
   {
-    label: "Email",
-    value: "mtpincheira@hotmail.com",
-    href: "mailto:mtpincheira@hotmail.com",
+    label: "Gmail",
+    value: "maytepincheira@gmail.com",
+    href: "mailto:maytepincheira@gmail.com",
     modifier: "email",
   },
   {
