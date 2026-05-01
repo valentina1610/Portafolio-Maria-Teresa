@@ -818,12 +818,15 @@
   overflow: hidden;
 }
 
-/* Imagen real en el modal */
+/* Imagen real en el modal — se ve completa sin recorte */
 .modal__img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
+  background: var(--p-light);
+  transform: none !important;
+  transition: none !important;
 }
 
 .modal__emoji {

@@ -25,7 +25,11 @@ export default function Galeria() {
               onClick={() => setModalObra(obra)}
             >
               <div className="gallery-card__thumb">
-                <span className="gallery-card__emoji">{obra.emoji}</span>
+                <img
+                  src={`/${obra.imagen}`}
+                  alt={obra.nombre}
+                  className="gallery-card__img"
+                />
                 <div className="gallery-card__tag">{obra.tecnica}</div>
               </div>
 
@@ -33,11 +37,13 @@ export default function Galeria() {
                 <h3 className="gallery-card__name">{obra.nombre}</h3>
                 <div className="gallery-card__size">{obra.tamaño}</div>
                 <div className="gallery-card__meta">
-                  <span className="gallery-card__price">{obra.precio.toLocaleString("es-AR", {
-                    style: "currency",
-                    currency: "ARS",
-                    maximumFractionDigits: 0,
-                  })}</span>
+                  <span className="gallery-card__price">
+                    {obra.precio.toLocaleString("es-AR", {
+                      style: "currency",
+                      currency: "ARS",
+                      maximumFractionDigits: 0,
+                    })}
+                  </span>
                   <span className="gallery-card__action">Ver más →</span>
                 </div>
               </div>

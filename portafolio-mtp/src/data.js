@@ -53,7 +53,7 @@ export const OBRAS = [
     color: "amber",
     imagen: "dasha.png",
     descripcion:
-      "",
+      "Dasha nace de la libertad, unión y amor, en una danza que se expande más allá del tiempo donde todo es uno",
   },
   {
     id: 2,
