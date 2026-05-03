@@ -58,7 +58,7 @@
   height: 68px;
   transition: background 0.45s ease, border-color 0.45s ease,
     backdrop-filter 0.45s ease, box-shadow 0.45s ease;
-  color: #fff;
+  color: #4a4a5a;
 }
 
 .navbar--scrolled {
