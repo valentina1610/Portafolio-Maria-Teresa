@@ -44,16 +44,7 @@ export default function Modal({ obra, onClose }) {
           </div>
 
           <div className="modal__footer">
-            <div>
-              <span className="modal__price-label">Precio</span>
-              <div className="modal__price">
-                {obra.precio.toLocaleString("es-AR", {
-                  style: "currency",
-                  currency: "ARS",
-                  maximumFractionDigits: 0,
-                })}
-              </div>
-            </div>
+            <span className="modal__venta">En venta</span>
             <a
               href={`https://wa.me/542236801648?text=Hola%20Maria%20Teresa!%20Me%20interesa%20la%20obra%20%22${encodeURIComponent(obra.nombre)}%22`}
               target="_blank"

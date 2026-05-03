@@ -16,7 +16,7 @@ const links = [
   },
   {
     label: "Instagram",
-    value: "@Mariateresa_pinta",
+    value: "@mariateresa_pinta",
     href: "https://instagram.com/Mariateresa_pinta",
     modifier: "instagram",
   },
