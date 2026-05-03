@@ -4,7 +4,7 @@ export default function Footer() {
       <p className="footer__text">
         Maria Teresa Pincheira © 2026 · Todos los derechos reservados | Desarrollado por{" "}
          <a
-          href="https://valentinaolmos-portafolio.netlify.app/#projects"
+          href="https://valentina-olmos.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
           className="footer__powered-link"
