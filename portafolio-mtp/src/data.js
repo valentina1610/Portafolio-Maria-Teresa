@@ -46,6 +46,48 @@ export const PALETTE = {
 export const OBRAS = [
   {
     id: 1,
+    nombre: "Danza de fluidez",
+    tecnica: "Mixta",
+    tamaño: "1.80 x 1.10 m",
+    color: "amber",
+    imagen: "rolando.jpg",
+  },
+  {
+    id: 2,
+    nombre: "Paleta Rolando Toro",
+    tecnica: "Oleo",
+    tamaño: "30 x 40 cm",
+    color: "amber",
+    imagen: "rolandopaleta.jpg",
+  },
+  {
+    id: 3,
+    nombre: "Paleta Rolando Toro",
+    tecnica: "Oleo",
+    tamaño: " 30 x 40 cm",
+    color: "amber",
+    imagen: "paleta2.jpg",
+    descripcion:
+      "La fuerza que nos conduce es la misma que enciende el sol que anima los mares y hace florecer los cerezos. La fuerza que nos mueve es la misma que agita las semillas con su mensaje inmemorial de vida. -Rolando Toro",
+  },
+  {
+    id: 4,
+    nombre: "Mecimiento de la Madre Tierra",
+    tecnica: "Mixta",
+    tamaño: "60×70 cm",
+    color: "teal",
+    imagen: "mecimiento.jpg",
+  },
+  {
+    id: 5,
+    nombre: "Cuatro elementos",
+    tecnica: "Mixta",
+    tamaño: "60×70 cm",
+    color: "rose",
+    imagen: "cuatroelem.jpg",
+  },
+  {
+    id: 6,
     nombre: "Dasha",
     tecnica: "Mixta",
     tamaño: "60 cm de diámetro",
@@ -55,27 +97,7 @@ export const OBRAS = [
       "Dasha nace de la libertad, unión y amor, en una danza que se expande más allá del tiempo donde todo es uno",
   },
   {
-    id: 2,
-    nombre: "Vuelo de los Cóndores",
-    tecnica: "Mixta",
-    tamaño: "1,10 mt x 90 cm",
-    color: "sage",
-    imagen: "condor.jpg",
-    descripcion:
-      "El Cóndor señor de los andes, ave del vuelo altivo, alas que rozan los techos del cielo. Desde tiempos ancestrales, su presencia de solemne majestad ha fascinado a los pueblos andinos. Así el gran pájaro se convirtió en símbolo de sabiduría y mensajero de lo divino. ",
-  },
-  {
-    id: 3,
-    nombre: "Cervatillo",
-    tecnica: "Mixta",
-    tamaño: "90 x 90 cm",
-    color: "sky",
-    imagen: "bambi.jpg",
-    descripcion:
-      "El cervatillo, con su mirada dulce y curiosa, es un símbolo de inocencia y conexión con la naturaleza. En esta obra, su presencia serena invita a detenerse y contemplar la belleza simple de la vida.",
-  },
-  {
-    id: 4,
+    id: 7,
     nombre: "El Vals de las Flores",
     tecnica: "Óleo",
     tamaño: "1 mt x 90 cm",
@@ -85,7 +107,7 @@ export const OBRAS = [
       "Celebro la vida, pinto con amor mi Jardín",
   },
   {
-    id: 5,
+    id: 8,
     nombre: "Caminando con mi niño hacia el corazón de la vida",
     tecnica: "Óleo",
     tamaño: "70 x 60 cm",
@@ -94,7 +116,43 @@ export const OBRAS = [
     descripcion: "Expuesta en el  evento 'Conexión Malvinas' del 3 al 6 de Abril del año 2025 en el paseo Aldrey de la Ciudad de Mar del Plata.",
   },
   {
-    id: 6,
+    id: 9,
+    nombre: "Cervatillo",
+    tecnica: "Mixta",
+    tamaño: "90 x 90 cm",
+    color: "sky",
+    imagen: "bambi.jpg",
+    descripcion:
+      "El cervatillo, con su mirada dulce y curiosa, es un símbolo de inocencia y conexión con la naturaleza. En esta obra, su presencia serena invita a detenerse y contemplar la belleza simple de la vida.",
+  },
+  {
+    id: 10,
+    nombre: "Vuelo de los Cóndores",
+    tecnica: "Mixta",
+    tamaño: "1,10 mt x 90 cm",
+    color: "sage",
+    imagen: "condor.jpg",
+    descripcion:
+      "El Cóndor señor de los andes, ave del vuelo altivo, alas que rozan los techos del cielo. Desde tiempos ancestrales, su presencia de solemne majestad ha fascinado a los pueblos andinos. Así el gran pájaro se convirtió en símbolo de sabiduría y mensajero de lo divino. ",
+  },
+  {
+    id: 11,
+    nombre: "Cerezos de tibet",
+    tecnica: "Mixta",
+    tamaño: "1 mt x 70 cm",
+    color: "rose",
+    imagen: "cerezos.jpg",
+  },
+  {
+    id: 12,
+    nombre: "Energia universal",
+    tecnica: "Mixta",
+    tamaño: "1 mt x 90 cm",
+    color: "violet",
+    imagen: "energiauniversal.jpg",
+  },
+  {
+    id: 13,
     nombre: "Contemplación",
     tecnica: "Óleo",
     tamaño: "80 x 80 cm",
@@ -103,8 +161,8 @@ export const OBRAS = [
     descripcion:
       "Acantilados de la Ciudad de Mar del Plata.",
   },
-   {
-    id: 7,
+  {
+    id: 14,
     nombre: "Virgen de Guadalupe",
     tecnica: "Óleo",
     tamaño: "90 cm x 1,40 mt",
@@ -113,8 +171,8 @@ export const OBRAS = [
     descripcion:
       "",
   },
-   {
-    id: 8,
+  {
+    id: 15,
     nombre: "Mar del Plata",
     tecnica: "Mixta",
     tamaño: "60 x 60 cm",
@@ -122,8 +180,8 @@ export const OBRAS = [
     imagen: "playa.jpg",
     descripcion:  "Tomando la belleza de una mañana en la playa pintando en vivo.",
   },
-    {
-    id: 9,
+  {
+    id: 16,
     nombre: "Oleada",
     tecnica: "Mixta",
     tamaño: "1 mt x 59 cm",
@@ -131,8 +189,8 @@ export const OBRAS = [
     imagen: "oleada.jpg",
     descripcion:  "",
   },
-    {
-    id: 10,
+  {
+    id: 17,
     nombre: "Sol",
     tecnica: "Mixta",
     tamaño: "60 x 70 cm",
@@ -140,8 +198,8 @@ export const OBRAS = [
     imagen: "sol.jpg",
     descripcion:  "",
   },
-    {
-    id: 11,
+  {
+    id: 18,
     nombre: "Catania, Sicilia",
     tecnica: "Oleo",
     tamaño: "90 x 90 cm",
