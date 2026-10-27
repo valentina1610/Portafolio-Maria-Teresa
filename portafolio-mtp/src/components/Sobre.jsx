@@ -22,11 +22,6 @@ export default function Sobre() {
               className="sobre__photo"
             />
           </div>
-          {/* Badge flotante con años */}
-          <div className="sobre__years">
-            <span className="sobre__years-number">+12</span>
-            <span className="sobre__years-label">años creando</span>
-          </div>
         </div>
 
         {/* Columna derecha: texto */}
