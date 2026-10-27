@@ -23,9 +23,9 @@ export default function App() {
       <Navbar scrolled={scrolled} />
       <main>
         <Hero />
+        <Galeria />
         <Sobre />
         <Clases />
-        <Galeria />
         <Contacto />
       </main>
       <Footer />
